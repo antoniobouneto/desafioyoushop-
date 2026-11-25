@@ -1,0 +1,24 @@
+{
+  "name": "rastro-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0 --port 3000",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0 --port 3000",
+    "typecheck": "tsc --noEmit --incremental false"
+  },
+  "dependencies": {
+    "lucide-react": "1.80.0",
+    "next": "15.5.29",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.10",
+    "@types/react": "19.3.2",
+    "@types/react-dom": "19.3.0",
+    "typescript": "5.9.3"
+  }
+}

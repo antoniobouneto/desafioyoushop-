@@ -1,0 +1,6 @@
+packages:
+  - '.'
+minimumReleaseAgeExclude:
+  - '@types/node@26.6.10'
+  - '@types/react@19.3.2'
+  - lucide-react@1.80.0
